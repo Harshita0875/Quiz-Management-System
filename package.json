@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "csv-parser": "^3.2.1",
+    "fs": "^0.0.1-security",
+    "mssql": "^12.5.5",
+    "react-router-dom": "^7.18.0"
+  }
+}

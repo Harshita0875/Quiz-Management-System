@@ -1,0 +1,77 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+.admin-wrapper {
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #0b5ed7);
+  color: white;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background: #111827;
+  padding: 20px;
+}
+
+/* Main content */
+.main {
+  flex: 1;
+  padding: 30px;
+  overflow-x: auto;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+/* Title */
+.main h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* TABLE FIX */
+.question-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  overflow: hidden;
+   margin-top: 20px;
+}
+
+/* Header */
+.question-table th {
+  background: #1f2937;
+  color: #fff;
+  padding: 12px;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+/* Cells */
+.question-table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid rgba(255,255,255,0.2);
+  color: #fff;
+}
+
+/* Hover effect */
+.question-table tr:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Correct answer highlight */
+/* .correct {
+  background: #22c55e !important;
+  color: black;
+  font-weight: bold;
+  border-radius: 6px;
+} */
